@@ -1,0 +1,92 @@
+*{ 
+margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background: #eee;
+    box-sizing: border-box;
+}
+/* Paragraph sytle (Comments under Photos) */
+p{
+    text-align: left;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* Header styles */
+
+.header{
+    background: #fff;
+    padding: 20px 0;
+    margin-bottom: 50px;
+
+/* header flex */ 
+    flex: 0 1 100%;
+    display: flex;
+    justify-content: center;
+}
+/* Photo Flex */    
+.photo{
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* box style, then photo style, last flex */
+.box{
+    padding: 20px;
+    margin: 20px 10px;
+    height: 400px;
+    width: 400px;
+    background: #fff;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+
+}
+
+/* Individual box with classes 1-4, style includes background image style */
+.one{
+    background-image: url(little-husky-dog.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.two{
+    background-image: url(pug-skateboard.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.three{
+    background-image: url(girlonlaptop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.four{
+    background-image: url(Screen%20Shot%202018-07-09%20at%203.53.59%20PM.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
