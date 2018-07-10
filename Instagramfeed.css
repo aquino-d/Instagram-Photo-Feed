@@ -20,14 +20,14 @@ p{
 .header{
     background: #fff;
     padding: 20px 0;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 
 /* header flex */ 
     flex: 0 1 100%;
     display: flex;
     justify-content: center;
 }
-/* Photo Flex */    
+/* Div Class Photo Flex */    
 .photo{
     flex-wrap: wrap;
     align-items: center;
@@ -38,40 +38,37 @@ p{
 /* box style, then photo style, last flex */
 .box{
     padding: 20px;
-    margin: 20px 10px;
-    height: 400px;
-    width: 400px;
+    margin: 25px 0px;
+    width: 35%;
     background: #fff;
-    background-position: center;
+    
+    height: ;
+    background-position: 50% 50%;
     position: relative;
-    justify-content: center;
-
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: block;
+    
+    
+    /* with flex box doesnt adjust to photo */
+    flex: 1 1 400px;
 }
 
-/* Individual box with classes 1-4, style includes background image style */
+/* Background image used as Photo for feed */
 .one{
     background-image: url(little-husky-dog.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    
 }
 
 .two{
     background-image: url(pug-skateboard.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .three{
     background-image: url(girlonlaptop.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .four{
-    background-image: url(Screen%20Shot%202018-07-09%20at%203.53.59%20PM.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(Food.png);
 }
 
 
